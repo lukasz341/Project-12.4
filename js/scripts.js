@@ -1,6 +1,9 @@
+
 var url = 'http://api.icndb.com/jokes/random';
 
-onload=getJoke();
+//var url= 'https://api.chucknorris.io/jokes/random';
+
+window.onload=getJoke();
 
 var button = document.getElementById('get-joke');
 button.addEventListener('click', function(){
